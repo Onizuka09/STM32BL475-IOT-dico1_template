@@ -8,6 +8,9 @@ This is a template project demonstrating how to use the STM32BL475 IoT Discovery
 
 > I also recomment taking a look at the BSP under `Drivers/BSP`
 > You will find there the related APIs for the BLE and also for the onboard sensors 
+
+- The current main runs a simple BLE application, a notification when the on board btn is pushed and LED service control it. 
+- I have used the `NRF Connect` mobile application to test this.
 ## Usage 
 
 - Buidling 
